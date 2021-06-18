@@ -87,8 +87,8 @@ public class TeleInicial {
                 case 2:
                     if(pessoas.isEmpty())System.out.println("Nenhum contato cadastrado");
                     else{
-                        for(Pessoa list:pessoas){
-                            list.listar();
+                        for(Pessoa uni:pessoas){
+                            uni.listar();
                             
                         }
                     }
